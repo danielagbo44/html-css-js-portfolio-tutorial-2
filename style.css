@@ -9,7 +9,7 @@
 
 /* style.css */
 body {
-    background-color:#C0C0C0; 
+    background-color:#; 
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
@@ -121,7 +121,7 @@ a:hover {
     list-style: none;
 }
 
-.menu-links open {
+.menu-links .open {
     max-height: 300px;
 }
 
@@ -143,10 +143,6 @@ a:hover {
 
 .hamburger-icon span:first-child {
     opacity: 1;
-}
-
-.hamburger-icon span:first-child {
-   transform: none;
 }
 
 /*SECTIONS*/
@@ -221,7 +217,7 @@ section {
 .btn-container {
     display: flex;
     justify-content: center;
-    gap: rem;
+    gap: 1rem;
 }
 
 .btn {
@@ -357,9 +353,9 @@ section {
 }
 
 .project-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    border-radius: 3rem;
+    width: 100%;
+    height: auto;
 }
 
 .project-title {
@@ -412,7 +408,7 @@ section {
     height: 2.5rem;
 }
 
-/ * FOOTER SECTION */
+/* FOOTER SECTION */
 
 footer {
     height: 26vh;
